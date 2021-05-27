@@ -20,6 +20,12 @@ body {
   }
 }
 
+@media (max-width: 992px) {
+  #body {
+    padding-bottom: 10rem;
+  }
+}
+
 a {
   color: #0563bb;
   text-decoration: none;
@@ -402,6 +408,7 @@ p {
   }
 
 }
+
 @keyframes finger {
   0% {
     opacity: 1;
@@ -411,6 +418,8 @@ p {
     transform: translateY(20px);
   }
 }
+
+
 
 /*--------------------------------------------------------------
 # Sections General
@@ -603,13 +612,13 @@ section {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #45505b;
+  color: #f1fbff;
 }
 
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #0563bb;
+  border-left: 2px solid #66fcf1;
   position: relative;
 }
 
@@ -619,13 +628,13 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #0563bb;
+  color: #66fcf1;
   margin-bottom: 10px;
 }
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #f7f8f9;
+  background: #1f2833;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
@@ -638,6 +647,7 @@ section {
 
 .resume .resume-item ul li {
   padding-bottom: 10px;
+  color: #c5c6c7;
 }
 
 .resume .resume-item:last-child {
@@ -653,7 +663,7 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #0563bb;
+  border: 2px solid #45a29e;
 }
 
 /*--------------------------------------------------------------
@@ -1102,7 +1112,7 @@ section {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: rgb(33, 37, 41);
+  color: #c5c6c7;
   background-color: #0b0c10;
   background-clip: padding-box;
   border: 1px solid rgb(206, 212, 218);
@@ -1286,7 +1296,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #0563bb;
+  background: #1f2833;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1299,7 +1309,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #0678e3;
+  background: #0b0c10;
   color: #45a29e;
   text-decoration: none;
 }
@@ -1393,4 +1403,12 @@ section {
 p.lead {
   font-size: 1.15rem;
   font-weight: 400;
+}
+
+.fixed-bottom {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1030;
 }
