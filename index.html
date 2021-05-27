@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Nuno Moreira</title>
+  <title>Nuno Moreira - Resume</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -460,7 +460,7 @@
 
           </div>
 
-          <div class="col-lg-8 mt-5 mt-lg-0">
+          <!-- <div class="col-lg-8 mt-5 mt-lg-0">
 
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
@@ -485,7 +485,66 @@
               <div class="text-center"><button type="submit">Send Message</button></div>
             </form>
 
+          </div> -->
+
+          <!-- the lines below are needed -->
+    <div class="col-lg-8 mt-5 mt-lg-0">
+      <div class="fcf-body">
+          <div class="fcf-form-wrap">
+              <div id="fcf-form">
+                  <form class="fcf-form-class php-email-form" method="post" action="fcf-assets/fcf.process.php">
+                      <div class="row">
+                          <div class="fcf-field col-md-6 form-group">
+                              <div class="fcf-control">
+                                  <input type="text" name="Name" id="Name" class="fcf-input is-full-width form-controli" maxlength="60"
+                                      data-validate-field="Name" placeholder="Your Name">
+                              </div>
+                          </div>
+                          <div class="fcf-field col-md-6 form-group">
+                              <div class="fcf-control">
+                                  <input type="email" name="Email" id="Email" class="fcf-input is-full-width form-controli" maxlength="100"
+                                      data-validate-field="Email" placeholder="Your Email">
+                              </div>
+                          </div>
+                      </div>
+                      <div class="fcf-field mt-3 form-group">
+                          <div class="fcf-control">
+                              <input type="text" name="Phone" id="Phone" class="fcf-input is-full-width form-controli" maxlength="30"
+                                  data-validate-field="Phone" placeholder="Subject (Optional)">
+                          </div>
+                      </div>
+                      <div class="fcf-field mt-3 form-group">
+                          <div class="fcf-control">
+                              <textarea name="Message" id="Message" class="fcf-textarea form-controli" maxlength="3000" rows="5"
+                                  data-validate-field="Message" placeholder="Message"></textarea>
+                          </div>
+                      </div>
+                      <div class="my-3">
+                        <div class="loading">Loading</div>
+                        <div class="error-message"></div>
+                        <div class="sent-message">Your message has been sent. Thank you!</div>
+                      </div>
+                      <div id="fcf-status" class="fcf-status"></div>
+                      <div class="fcf-field">
+                          <div class="fcf-buttons text-center">
+                              <button id="fcf-button" type="submit" class="fcf-button is-link is-medium is-fullwidth">Send
+                                  Message</button>
+                          </div>
+                      </div>
+                      <!-- You MUST retain the attribution below
+                      <div class="fcf-attribution">Contact Form by <a href="https://www.freecontactform.com/"
+                              class="fcf-attribution-link">FreeContactForm</a></div> -->
+                  </form>
+              </div>
+              <div id="fcf-thank-you" style="display:none">
+                  <!-- Thank you message goes below -->
+                  <p>Thanks for contacting us, we will get back in touch with you soon.</p>
+                  <!-- Thank you message goes above -->
+              </div>
           </div>
+      </div>
+      </div>
+
 
         </div>
 
