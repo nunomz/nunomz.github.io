@@ -830,7 +830,7 @@ section {
 # Portfolio Details
 --------------------------------------------------------------*/
 .portfolio-details {
-  padding-top: 40px;
+  margin: auto;
 }
 
 .portfolio-details .portfolio-details-slider img {
@@ -871,10 +871,12 @@ section {
   list-style: none;
   padding: 0;
   font-size: 15px;
+  color: #c5c6c7;
 }
 
 .portfolio-details .portfolio-info ul li + li {
   margin-top: 10px;
+  color: #c5c6c7;
 }
 
 .portfolio-details .portfolio-description {
