@@ -70,7 +70,7 @@ p {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #0563bb;
+  background: #66fcf1;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -79,13 +79,13 @@ p {
 
 .back-to-top i {
   font-size: 28px;
-  color: #fff;
+  color: #1f2833;
   line-height: 0;
 }
 
 .back-to-top:hover {
-  background: #0678e3;
-  color: #fff;
+  background: #45a29e;
+  color: #1f2833;
 }
 
 .back-to-top.active {
