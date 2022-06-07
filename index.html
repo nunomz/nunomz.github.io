@@ -60,13 +60,24 @@
             <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
             <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li> -->
             <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
-            <li class="nav-item"><a class="nav-link js-scroll-trigger"></a></li>
+            <li class="nav-item">
+              <div class="dropdown" $dropdown-bg: $black;>
+                <a class="nav-link js-scroll-trigger dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                  Language
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <li><a class="dropdown-item">English</a></li>
+                  <li><a class="dropdown-item" href="index_pt.html">Portuguese</a></li>
+                </ul>
+              </div>
+            </li>
+            
+            
+
         </ul>
     </div>
 </nav>
 </header> <!-- End Header -->
-
-    
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex flex-column justify-content-center">
@@ -74,10 +85,10 @@
       <h1>Nuno <span class="text-blue"> Moreira </span> </h1>
        <!-- <p>I'm <span class="typed" data-typed-items="Designer, Developer, Freelancer, Photographer"></span></p> --> 
         <div class="subheading mb-5">
-          <a class="text-silver">Estudante · Guimarães · </a>
+          <a class="text-silver">Student · Guimarães · </a>
           <a class="text-blue2" href="mailto:nunomoreirac@gmail.com">nunomoreirac@gmail.com</a>
         </div>
-      <p class="lead mb-5"> Hi! I'm a 19 year old student from Portugal. I'm currently taking a bachelor's degree on Engineering and Management of Information Systems at University of Minho, with an included Master's degree to follow. I'm also learning other skills on the side, like coding.</p>
+      <p class="lead mb-5"> Hi! I'm a 20 year old student from Portugal. I just finished my degree on Engineering and Management of Information Systems at University of Minho and am now enrolling in a master's in Engineering of Information Systems. I'm currently looking for an intership in fields such as Data or Software Engineering.</p>
       <div class="social-links">
         <a href="https://twitter.com/nunomzz" class="twitter"><i class="bx bxl-twitter"></i></a>
         <a href="https://www.facebook.com/nunodoesitall/" class="facebook"><i class="bx bxl-facebook"></i></a>
@@ -156,122 +167,54 @@
 
         <div class="section-title">
           <h2>Skills</h2>
-          <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
+          <!--<p style="opacity: 0.5;">NOTE: These percentages don't necessarily quantify how good I am with these programming languages and technologies, but instead how comfortable I am with using them and how willing I am to go the extra mile to educate myself</p>-->
         </div>
-
-        <!--<div class="row skills-content">
-
-          <div class="col-lg-6">
-
-            <div class="progress">
-              <span class="skill">HTML <i class="val">60%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">CSS <i class="val">60%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">JavaScript <i class="val">40%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-          </div>
-
-          <div class="col-lg-6">
-
-            <div class="progress">
-              <span class="skill">PHP <i class="val">WIP</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">R & RStudio <i class="val">WIP</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Python <i class="val">WIP</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-          </div>
-        </div>-->
 
         <div class="row">
           <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
             <ul id="skills-flters">
               <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-data">Data Eng.</li>
+              <li data-filter=".filter-data">Data/AI</li>
               <li data-filter=".filter-web">Web</li>
-              <li data-filter=".filter-other">Other</li>
+              <li data-filter=".filter-oop">OOP</li>
             </ul>
           </div>
         </div>
 
         <div class="row skills-container skills-content" data-aos="fade-up" data-aos-delay="200">
 
+          <div class="col-lg-4 col-md-6 skills-item filter-web">
+            <div class="progress">
+              <span class="skill">HTML <i class="val">55%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 skills-item filter-web">
+            <div class="progress">
+              <span class="skill">CSS <i class="val">50%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
           
           <div class="col-lg-4 col-md-6 skills-item filter-data">
             <div class="progress">
-              <span class="skill">R & RStudio <i class="val">WIP</i></span>
+              <span class="skill">R <i class="val">65%</i></span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-          </div>
-          
-
-        
-          <div class="col-lg-4 col-md-6 skills-item filter-web">
-            <div class="progress">
-              <span class="skill">HTML <i class="val">60%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-          </div>
-        
-
-          
-          <div class="col-lg-4 col-md-6 skills-item filter-web">
-            <div class="progress">
-              <span class="skill">CSS <i class="val">60%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-          </div>
-          
-
-          <div class="col-lg-4 col-md-6 skills-item filter-web">
-            <div class="progress">
-              <span class="skill">JavaScript <i class="val">50%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 skills-item filter-web">
             <div class="progress">
-              <span class="skill">PHP <i class="val">0%</i></span>
+              <span class="skill">JavaScript <i class="val">30%</i></span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
           </div>
@@ -285,24 +228,54 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 skills-item filter-other">
+          <div class="col-lg-4 col-md-6 skills-item filter-oop">
             <div class="progress">
-              <span class="skill">Java <i class="val">70%</i></span>
+              <span class="skill">Java <i class="val">60%</i></span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="70" aria-valuemax="100"></div>
+                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="70" aria-valuemax="100"></div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 skills-item filter-other">
+          <div class="col-lg-4 col-md-6 skills-item filter-oop">
             <div class="progress">
-              <span class="skill">C/C++ <i class="val">80%</i></span>
+              <span class="skill">C/C++ <i class="val">65%</i></span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
           </div>
-      </div> 
+
+          <div class="col-lg-4 col-md-6 skills-item filter-oop">
+            <div class="progress">
+              <span class="skill">C# <i class="val">60%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 skills-item filter-data">
+            <div class="progress">
+              <span class="skill">Tableau <i class="val">65%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 skills-item filter-data">
+            <div class="progress">
+              <span class="skill">Prolog <i class="val">60%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <p style="opacity: 0.5;">NOTE: These percentages don't necessarily quantify how good I am with these programming languages and technologies, but instead how comfortable I am with using them.</p>
+    
     </section><!-- End Skills Section -->
 
     <!-- ======= Resume Section ======= -->
@@ -316,7 +289,7 @@
 
         <div class="row">
           <div class="col-lg-6">
-            <h3 class="resume-title">Sumário</h3>
+            <h3 class="resume-title">Summary</h3>
             <div class="resume-item pb-0">
               <h4>Nuno Moreira</h4>
               <p><em></em></p>
@@ -326,32 +299,30 @@
               </ul>
             </div>
 
-            <h3 class="resume-title">Educação</h3>
+            <h3 class="resume-title">Education</h3>
             <div class="resume-item">
-              <h4>Licenciatura em Engenharia e Gestão de Sistemas de Informação</h4>
+              <h4>Degree in Engineering and Management of Information Systems</h4>
               <h5>2019 - 2022</h5>
-              <p><em>Universidade do Minho</em></p>
+              <p><em>University of Minho</em></p>
 <!--               <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
  -->            </div>
             <div class="resume-item">
-              <h4>Mestrado em Engenharia de Sistemas de Informação</h4>
+              <h4>Masters in Engineering of Information Systems</h4>
               <h5>2022 - 2024</h5>
-              <p><em>Universidade do Minho</em></p>
+              <p><em>University of Minho</em></p>
 <!--               <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
  -->            </div>
           </div>
           <div class="col-lg-6">
             <h3 class="resume-title">Professional Experience</h3>
             <div class="resume-item">
-              <!-- <h4>Senior graphic design specialist</h4>
-              <h5>2019</h5>
-              <p><em>Experion, New York, NY </em></p>
+              <h4>Item packaging worker</h4>
+              <h5>2021</h5>
+              <p><em>Guimarães, PT</em></p>
               <ul>
-                <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
-                <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
-                <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
-                <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
-              </ul> -->
+                <li>While outside of the tech space, this summer job at a clothing factory was a great introduction to the job world.</li>
+                <li>I learned to work under a tight schedule and to deal with co-workers.</li>
+              </ul>
             </div>
             <div class="resume-item">
               <!-- <h4>Graphic design specialist</h4>
@@ -383,9 +354,10 @@
           <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-gd">Graphic Design</li>
+              <!--<li data-filter=".filter-gd">Graphic Design</li>-->
               <li data-filter=".filter-video">Video</li>
               <li data-filter=".filter-web">Web</li>
+              <li data-filter=".filter-data">Data</li>
             </ul>
           </div>
         </div>
@@ -393,7 +365,7 @@
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
           
-          <div class="col-lg-4 col-md-6 portfolio-item filter-gd">
+          <!--<div class="col-lg-4 col-md-6 portfolio-item filter-gd">
             <a href="totally.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details">
               <div class="portfolio-wrap">
                 <img src="assets/img/portfolio/totally.png" class="img-fluid" alt="">
@@ -403,7 +375,7 @@
                 </div>
               </div>
             </a>
-          </div>
+          </div>-->
           
 
         
@@ -418,10 +390,20 @@
               </div>
             </a>
           </div>
-        
 
-          
-          <div class="col-lg-4 col-md-6 portfolio-item filter-gd">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-data">
+            <a href="data-nba.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details">
+              <div class="portfolio-wrap">
+                <img src="assets/img/portfolio/data-nba.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Data Engineering</h4>
+                  <p>Development of Full Data Pipeline</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        
+          <!--<div class="col-lg-4 col-md-6 portfolio-item filter-gd">
             <a href="xyts.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details" style="padding: 5px;"> 
               <div class="portfolio-wrap">
                 <img src="assets/img/portfolio/xyts.png" class="img-fluid" alt="">
@@ -431,7 +413,7 @@
                 </div>
               </div>
             </a>
-          </div>
+          </div>-->
           
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-video">
@@ -457,56 +439,18 @@
               </div>
             </a>
           </div>
-<!-- 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-data">
+            <a href="data-dm.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details">
               <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+                <img src="assets/img/portfolio/data-dm.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>App 3</h4>
-                  <p>App</p>
+                  <h4>Predictive Data Analysis about Cinema</h4>
+                  <p>Development of Classification Model</p>
                 </div>
               </div>
             </a>
-          </div> -->
-<!-- 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-video">
-            <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details">
-              <div onclick="location.href='portfolio-details.html';" style="cursor: pointer;" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details">
-                <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Card 1</h4>
-                  <p>Card</p>
-                </div>
-              </div>
-              </div>
-            </a>
-          </div> -->
-<!-- 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-video">
-            <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details">
-              <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Card 3</h4>
-                  <p>Card</p>
-                </div>
-              </div>
-            </a>
-          </div> -->
-<!-- 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details">
-              <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Web 3</h4>
-                  <p>Web</p>
-                </div>
-              </div>
-            </a>
-          </div> -->
+          </div>
 
         </div>
       </div>
